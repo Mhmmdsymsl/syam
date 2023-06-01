@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=apotek_60200121022',
+    'dsn' => 'mysql:host=localhost;dbname=migrasi',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8',
