@@ -57,6 +57,7 @@ class Mahasiswa022Controller extends \yii\web\Controller
 
     public function actionView($id)
     {
+    
         $mhs = Mahasiswa022::findOne($id);
         return $this->render('view',['mhs' => $mhs]);
     }
